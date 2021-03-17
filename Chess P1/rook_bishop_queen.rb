@@ -11,18 +11,14 @@ include "Slideable"
 
     def move_dirs
 
-    rook_moves = [
-            [0, 1]
-            [0, -1]
-            [1, 0]
-            [-1, 0]
-         ]
+     horizontal_dirs
+     
     end 
 
 
 end
 
-class Biship < Piece
+class Bishop < Piece
 include "Slideable"
 
     def symbol
